@@ -6,7 +6,6 @@ class Calculator extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            date: new Date(),
             allPlayers: [],
             totalAmount: 0
         };
