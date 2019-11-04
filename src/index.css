@@ -25,6 +25,67 @@ body {
   margin-bottom: 5%;
 }
 
-.card {
-  padding: 0 15px;
+.calculator section {
+  padding: 15px;
+  border: 2px solid #fff;
+  margin: 0 15px;
+  width: 4em;
+  height: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calculator section .gem-level {
+  font-style: italic;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.calculator .totals p {
+  text-decoration: underline;
+}
+
+/*Gem colors*/
+.bronze {
+  background: #8b6508;
+}
+
+.silver {
+  background: #838b8b;
+}
+
+.gold {
+  background: #cd950c;
+}
+
+.emerald {
+  background: #458b00;
+}
+
+.saphire {
+  background: #104e8b;
+}
+
+.ruby {
+  background: #8b1a1a;
+}
+
+.amethyst {
+  background: #9400d3;
+}
+
+.diamond {
+  background: #00ced1;
+}
+
+.pink-diamond {
+  background: #ff1493;
+}
+
+.galaxy-opal {
+  background: #562ee8; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #562ee8 0%, #000222 55%, #f785dc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #562ee8 0%,#000222 55%,#f785dc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #562ee8 0%,#000222 55%,#f785dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
