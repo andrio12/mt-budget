@@ -12,18 +12,18 @@ class Calculator extends React.Component {
     }
 
     getPlayerAndGemLevel = (playerId, gemLvl) => {
-        console.log("allplayers", this.state.allPlayers);
         let players = this.state.allPlayers;
         let playerFound = false;
         
-        if (players.length == 0) {
+        if (players.length === 0) {
             players.push({playerId: playerId, gemLvlId: gemLvl});
         } else {
             players.map((player, i) => {
-                if (player.playerId == playerId){
+                if (player.playerId === playerId){
                     playerFound = true;
                     players[i].gemLvlId = gemLvl;
                 }
+                return false;
             })
 
             if (!playerFound){
@@ -39,7 +39,7 @@ class Calculator extends React.Component {
         let sum = 0;
 
         players.map((player, i) => {
-            sum += player.gemLvlId * 8;
+            return sum += player.gemLvlId * 8;
         })
 
         this.setState({totalAmount: sum});

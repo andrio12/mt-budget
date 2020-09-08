@@ -46,6 +46,14 @@ body {
   text-decoration: underline;
 }
 
+footer {
+  margin-bottom: 5%;
+}
+
+footer a {
+  color: #d2d2d2;
+}
+
 /*Gem colors*/
 .bronze {
   background: #8b6508;
