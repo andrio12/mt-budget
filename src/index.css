@@ -90,6 +90,15 @@ AND IT IS A BIG ONE!!! */
   background: #9400d3;
 }
 
+.some-color {
+  background: #ff0000;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .diamond {
   background: #00ced1;
 }
