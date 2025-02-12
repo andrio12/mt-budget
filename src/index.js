@@ -8,6 +8,6 @@ ReactDOM.render(<App name="Andri" />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers
 // We need more cowbell!
+// This is a real one
 serviceWorker.unregister();
