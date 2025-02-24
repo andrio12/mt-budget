@@ -90,6 +90,15 @@ AND IT IS A BIG ONE!!! */
   background: #000;
 }
 /* commit from master */
+/*1. from fb-3*/
+.ruby-2 {
+  background: #ff0000;
+}
+
+/*2. from fb-3*/
+.ruby-3 {
+  background: #ff0003;
+}
 
 .amethyst {
   background: #9400d3;
