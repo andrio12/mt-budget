@@ -8,6 +8,7 @@ function App(props) {
       <header className="App-header">
         <h1>NBA 2K21 MyTeam Budget Calculator</h1>
         <h6>A simple tool to see how much MT per game your squad would cost you</h6>
+        <h6>Who uses h6 anymore?</h6>
       </header>
       <Calculator />
       <footer>

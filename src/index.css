@@ -112,6 +112,12 @@ AND IT IS A BIG ONE!!! */
   text-decoration: underline;
 }
 
+.fb-block {
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .diamond {
   background: #00ced1;
 }
