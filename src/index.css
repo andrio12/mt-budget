@@ -104,6 +104,14 @@ AND IT IS A BIG ONE!!! */
   text-decoration: none;
 }
 
+.master-block {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: underline;
+}
+
 .diamond {
   background: #00ced1;
 }
