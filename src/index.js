@@ -10,4 +10,5 @@ ReactDOM.render(<App name="Andri" />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers
 // We need more cowbell!
+// More cowbell provided
 serviceWorker.unregister();
