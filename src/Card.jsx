@@ -53,7 +53,7 @@ class Card extends React.Component {
                 this.setState({ gemLvlClass: "diamond" });
                 break;
             case 9:
-                this.setState({ gemLvlClass: "pink-diamond" });
+                this.setState({ gemLvlClass: "yellow-diamond" });
                 break;
             case 10:
                 this.setState({ gemLvlClass: "galaxy-opal" });
